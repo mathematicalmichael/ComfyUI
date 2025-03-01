@@ -495,6 +495,7 @@ source = { virtual = "." }
     { name = "gitpython" },
     { name = "huggingface-hub" },
     { name = "matrix-client" },
+    { name = "pip" },
     { name = "pygithub" },
     { name = "rich" },
     { name = "toml" },
@@ -515,11 +516,6 @@ source = { virtual = "." }
     { name = "tqdm" },
     { name = "transformers" },
     { name = "transparent-background" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "pip" },
 ]
 
 [package.metadata]
@@ -547,6 +543,7 @@ requires-dist = [
     { name = "pillow", marker = "extra == '20250228'", specifier = ">=11.1.0" },
     { name = "pillow", marker = "extra == '20250228-ext'", specifier = ">=11.1.0" },
     { name = "pillow", marker = "extra == '20250228-rmbg'", specifier = ">=9.0.0" },
+    { name = "pip", marker = "extra == '20250228-mgr'", specifier = ">=25.0.1" },
     { name = "pixeloe", marker = "extra == '20250228-ess'", specifier = ">=0.1.4" },
     { name = "psutil", marker = "extra == '20250228'", specifier = ">=7.0.0" },
     { name = "pygithub", marker = "extra == '20250228-mgr'", specifier = ">=2.6.1" },
@@ -578,9 +575,6 @@ requires-dist = [
     { name = "uv", marker = "extra == '20250228-mgr'", specifier = ">=0.6.3" },
     { name = "yarl", marker = "extra == '20250228'", specifier = ">=1.18.0" },
 ]
-
-[package.metadata.requires-dev]
-dev = [{ name = "pip", specifier = ">=25.0.1" }]
 
 [[package]]
 name = "contourpy"
