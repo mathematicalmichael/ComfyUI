@@ -91,3 +91,8 @@ exclude = ["*.ipynb"]
 
 [tool.uv.workspace]
 members = ["custom_nodes/segmentation"]
+
+[dependency-groups]
+dev = [
+    "pip>=25.0.1",
+]
