@@ -12,7 +12,7 @@ documentation = "https://docs.comfy.org/"
 
 [project.optional-dependencies]
 20250228 = [
-    "aiohttp>=3.11.8",
+    "aiohttp>3.11.13",
     "av>=14.2.0",
     "einops>=0.8.1",
     "kornia>=0.7.1",
