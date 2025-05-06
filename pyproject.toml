@@ -81,6 +81,7 @@ documentation = "https://docs.comfy.org/"
 20250328 = [
     "joblib>=1.4.2",
     "polars>=1.26.0",
+    "rawpy>=0.24.0",
 ]
 
 [tool.ruff]
